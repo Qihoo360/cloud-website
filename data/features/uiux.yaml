@@ -1,0 +1,4 @@
+weight: 6
+name: "提供基于严密权限校验的 Web shell"
+icon: "fa fa-terminal"
+description: "用户可以通过 Web shell 的形式进入发布的 Pod 进行操作，自带完整的权限校验。"

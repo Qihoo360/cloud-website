@@ -1,0 +1,4 @@
+weight: 4
+name: "首创模版概念"
+icon: "fa fa-list-ul"
+description: "保留完整的发布历史，用户可以便捷的找到任何一次历史发布，并可轻松进行回滚，以及基于特定历史版本更新 Kubernetes 资源。当集群数据意外丢失时，可以通过 Wayne 平台重新发布"

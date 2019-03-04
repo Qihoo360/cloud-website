@@ -1,0 +1,10 @@
+weight: 2
+title: "用户首页"
+description: >
+  <ul class="list-style-none">
+     <li>Kubernetes 资源抽象成项目概念</li>
+     <li>独创的资源模版概念</li>
+     <li>可视化操作，更加方便</li>
+     <li>多集群管理</li>
+   </ul>
+image: "img/carousel/portal.png"

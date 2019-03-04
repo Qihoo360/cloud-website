@@ -1,0 +1,4 @@
+weight: 1
+name: "多集群管理"
+icon: "fa fa-cubes"
+description: "业界首创 Kubernetes 多集群发布和管理平台，可以同时管理多个 Kubernetes 集群，并针对性添加特定配置，更方便的多集群、多租户管理。"

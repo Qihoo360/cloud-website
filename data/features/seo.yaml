@@ -1,0 +1,4 @@
+weight: 3
+name: "简化 Kubernetes 对象创建"
+icon: "fa fa-file-text"
+description: "以表单的形式提供基础 Kubernetes 对象配置文件添加方式，同时支持高级模式直接编辑 Json/Yaml文件创建 Kubernetes 对象。"

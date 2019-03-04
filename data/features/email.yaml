@@ -1,0 +1,4 @@
+weight: 5
+name: "提供基于 APIKey 的开放接口调用"
+icon: "fa fa-key"
+description: "用户可自主申请相关 APIKey 并管理自己的部门和项目，运维人员也可以申请全局 APIKey 进行特定资源的全局管理。"

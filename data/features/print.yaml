@@ -1,0 +1,4 @@
+weight: 2
+name: "完备权限管理"
+icon: "fa fa-user-secret"
+description: "基于 RBAC（Role based access control）的权限管理，用户通过角色与部门和项目关联，拥有部门角色允许操作部门资源，拥有项目角色允许操作项目资源，更加适合多租户场景。"
