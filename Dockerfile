@@ -1,4 +1,4 @@
-FROM 360cloud/hugo:0.54.0 as build
+FROM 360cloud/hugo:0.47.1 as build
 
 COPY . /src
 
