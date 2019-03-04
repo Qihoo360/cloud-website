@@ -1,4 +1,3 @@
-baseurl = "https://example.org"
 title = "360 Cloud"
 theme = "hugo-universal-theme"
 languageCode = "zh-CN"
