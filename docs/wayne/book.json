@@ -5,7 +5,7 @@
   "author": "WilliamGuo",
   "links": {
     "sidebar": {
-      "Wayne": "https://github.com/Qihoo360/wayne"
+      "首页": "http://home.qihoo.cloud"
     }
   },
   "plugins": [
@@ -33,7 +33,7 @@
       "showLevel": true
     },
     "github": {
-      "url": "https://github.com/Qihoo360/wayne-docs"
+      "url": "https://github.com/Qihoo360/wayne"
     },
     "editlink": {
       "base": "https://github.com/Qihoo360/wayne-docs/blob/master/",
@@ -43,7 +43,7 @@
       "caption": "图片 - _CAPTION_"
     },
     "github-buttons": {
-      "repo": "Qihoo360/wayne-docs",
+      "repo": "Qihoo360/wayne",
       "types": [
         "star"
       ],
