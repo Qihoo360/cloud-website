@@ -1,0 +1,65 @@
+{
+  "title": "Wayne Official Docs",
+  "description": "Wayne Official Docs",
+  "language": "zh-hans",
+  "author": "WilliamGuo",
+  "links": {
+    "sidebar": {
+      "Wayne": "https://github.com/Qihoo360/wayne"
+    }
+  },
+  "plugins": [
+    "github",
+    "codesnippet",
+    "splitter",
+    "page-toc-button",
+    "image-captions",
+    "editlink",
+    "back-to-top-button",
+    "-lunr",
+    "-search",
+    "search-plus",
+    "github-buttons@2.1.0",
+    "favicon@^0.0.2",
+    "tbfed-pagefooter@^0.0.1",
+    "theme-default",
+    "-highlight",
+    "prism-themes",
+    "sitemap-general",
+    "lightbox"
+  ],
+  "pluginsConfig": {
+    "theme-default": {
+      "showLevel": true
+    },
+    "github": {
+      "url": "https://github.com/Qihoo360/wayne-docs"
+    },
+    "editlink": {
+      "base": "https://github.com/Qihoo360/wayne-docs/blob/master/",
+      "label": "编辑本页"
+    },
+    "image-captions": {
+      "caption": "图片 - _CAPTION_"
+    },
+    "github-buttons": {
+      "repo": "Qihoo360/wayne-docs",
+      "types": [
+        "star"
+      ],
+      "size": "small"
+    },
+    "tbfed-pagefooter": {
+      "copyright": "<p><a href=https://360cloud.org>360 云服务团队</a> | <a href=https://github.com/Qihoo360/wayne>Wayne 平台</a>  </p>Copyright © <a href=https://360cloud.org>360cloud</a> 2019-2019",
+      "modify_label": " Updated at ",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "favicon": {
+      "shortcut": "ico.png",
+      "bookmark": "ico.png"
+    },
+    "sitemap-general": {
+      "prefix": "https://360cloud.org/wayne/"
+    }
+  }
+}

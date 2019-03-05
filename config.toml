@@ -34,7 +34,7 @@ baseUrl = "http://home.qihoo.cloud/"
 [[menu.main]]
     parent = "docs"
     name = "Wayne"
-    url = "https://github.com/Qihoo360/wayne/wiki"
+    url = "/wayne/"
 
 [[menu.main]]
     name = "联系我们"

@@ -1,15 +1,15 @@
 DOCKER_IMAGE = 360cloud/website
 RELEASE_VERSION :=$(shell git describe --always --tags)
 
-.PHONY: release run build build-image push-image
+.PHONY: release run-website run-wayne-docs build-image push-image
 
 release: build-image push-image
 
-run:
+run-website:
 	hugo server
 
-build: ## Build site with production settings and put deliverables in ./public
-	hugo
+run-wayne-docs:
+	cd docs/wayne  && gitbook install && gitbook serve
 
 build-image:
 	docker build --no-cache . --tag $(DOCKER_IMAGE):$(RELEASE_VERSION)
