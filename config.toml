@@ -4,9 +4,9 @@ languageCode = "zh-CN"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "zh"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "devcows"
-# Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+disqusShortname = "k8swayne"
+# Enable Baidu Analytics by entering your tracking code
+googleAnalytics = "c3c51c6790e932d34fd1bf6e0e637537"
 hasCJKLanguage = "true"
 # Define the number of posts per page
 paginate = 10
@@ -90,8 +90,6 @@ baseUrl = "http://360yun.org/"
         <br>
       </p>
       """
-    latitude = "-12.043333"
-    longitude = "-77.028333"
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
