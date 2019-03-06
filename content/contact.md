@@ -18,8 +18,8 @@ Wayne 是由360搜索云平台开发团队设计和开发，主要解决 Kuberne
 
 #### 捐赠名单
 
-捐赠名单默认不会在网站上显示，如果你希望显示，可以 fork [官网项目](https://github.com/Qihoo360/cloud-website)，
-在[该页面](https://github.com/Qihoo360/cloud-website/blob/master/content/contact.md)底部添加，完成后发 pull request，网站会不定期更新
+捐赠名单默认不会在网站上显示，如果你希望显示，可以 Fork [官网项目](https://github.com/Qihoo360/cloud-website)，
+在[该页面](https://github.com/Qihoo360/cloud-website/blob/master/content/contact.md)底部添加，完成后发 Pull Request，网站会不定期更新
 
 
 |   日期      |   姓名    |    金额  |    备注   |

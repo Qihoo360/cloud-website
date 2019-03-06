@@ -1,10 +1,11 @@
 +++
 title = "Kubernetes 多集群管理平台 Wayne v1.5.0 版本正式发布(完全代替官方dashbord)"
-date = "2019-3-1T13:07:31+02:00"
+date = "2019-03-01T13:07:31+02:00"
 tags = ["kubernetes"]
 categories = ["wayne"]
 banner = "img/banners/release1.5.png"
 author = "WilliamGuo"
+authorLink = "https://wilhelmguo.cn"
 +++
 
 不负众望，1.5.0版本正式发布 https://github.com/Qihoo360/wayne/releases 本次更新基本涵盖了Kubernetes常用资源管理（可以彻底抛弃官方dashbord啦），并且还增加了service和ingress自动注入注解，更好的支持了公有云。

@@ -1,9 +1,10 @@
 +++
 title = "CNCF案例研究：奇虎360"
-date = "2015-06-24T13:50:46+02:00"
+date = "2019-02-12T18:07:31+02:00"
 tags = ["cncf"]
 categories = ["qihoo"]
 author = "WilliamGuo"
+authorLink = "https://wilhelmguo.cn"
 banner = "img/banners/qihoo-case-study.png"
 +++
 

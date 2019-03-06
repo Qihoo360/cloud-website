@@ -24,7 +24,11 @@
 
                     <div class="col-md-9" id="blog-post">
 
-                        <p class="text-muted text-uppercase mb-small text-right">{{ if .Params.author }}{{ i18n "authorBy" }} <a href="#">{{ .Params.author }}</a> | {{ end }}{{ .Date.Format .Site.Params.date_format }}</p>
+                        <p class="text-muted text-uppercase mb-small text-right">{{ if .Params.author }}{{ i18n "authorBy" }}
+                            {{ if .Params.authorLink }}
+                                <a target="_blank" href="{{ .Params.authorLink }}">{{ .Params.author }}</a>
+                            {{ else }}
+                                <a target="_blank" href="#">{{ .Params.author }}</a> {{ end }}| {{ end }}{{ .Date.Format .Site.Params.date_format }}</p>
 
                         <div id="post-content">
                           {{ .Content }}

@@ -1,4 +1,19 @@
-{{ template "_internal/google_analytics.html" . }}
+<!-- remove google_analytics replace with baidu
+   {{ template "_internal/google_analytics.html" . }}
+-->
+<!-- baidu Analytics-->
+{{ if .Site.GoogleAnalytics }}
+	<script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?{{ .Site.GoogleAnalytics }}";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+	</script>
+{{ end }}
+
 <script src="{{ .Site.BaseURL }}js/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
