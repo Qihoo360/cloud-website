@@ -17,5 +17,5 @@ APIKey 的类型分为全局、部门和项目，使用范围依次收缩。创�
 
 ## 使用
 
-> 开放 API 的文档使用 swagger 编排，请参照 [Wayne OpenAPI Swagger](config/openapi.swagger.json)
+> 开放 API 的文档使用 swagger 编排，请参照 [Wayne OpenAPI Swagger](https://github.com/Qihoo360/wayne/blob/master/src/backend/swagger/openapi.swagger.json)
 
