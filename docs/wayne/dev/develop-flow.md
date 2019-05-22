@@ -51,7 +51,7 @@ $ touch src/backend/conf/dev.conf
 
 > 在 dev.conf 中写入数据库等相关配置，dev.conf 会覆盖 app.conf 中的配置
 
-编译后端服务的时候，需要在编译环境开启go module
+编译后端服务的时候，需要在编译环境开启 go module
 
 Linux
 ```bash
