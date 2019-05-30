@@ -15,7 +15,7 @@ id = "contact"
 
 团队提供容器技术的全生命周期企业级解决方案。我们专注于解决企业使用容器技术面临的运维(Operation)、编排(Orchestration)和可观察(Observerity)问题。
 
-<img src="../img/o3.png" width="200">
+<img src="../img/o3.png" width="700">
 
 Wayne是我们解决编排问题的产品之一，除此以外我们还将持续开源团队的其他产品，敬请期待。
 
