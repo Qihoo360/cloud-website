@@ -89,9 +89,7 @@ baseUrl = "https://360yun.org/"
 
     logo = "img/wayne-logo.svg"
     logo_small = "img/wayne-logo.svg"
-    address = """<p><strong>奇虎360</strong>
-        <br>北京朝阳区
-        <br>酒仙桥街道360大厦
+    address = """<p><br>hello@360.cn
         <br>
       </p>
       """
@@ -148,7 +146,6 @@ baseUrl = "https://360yun.org/"
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
     title = "我们的用户"
-    subtitle = "想出现在这里？经典实用案例欢迎分享给我们"
 
 [params.recent_posts]
     enable = true
