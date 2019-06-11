@@ -17,7 +17,7 @@ export PATH="/usr/local/opt/gnu-sed/bin/$PATH"
 
 对于版本号 x.y.z-c 中， x 为主版本号，y 为次版本号，z 为修订版本号，c 为先行版本号，如非必要，请不要使用先行版本号。
 
-wayne 包含四类分支：
+Wayne 包含四类分支：
 
 - master 分支
 - release 分支
@@ -57,9 +57,9 @@ git pull
 
 ## bump.sh 和版本
 
-wayne 的版本格式是 x.y.z 的形式，只允许通过 bump.sh 来创建版本。
+Wayne 的版本格式是 x.y.z 的形式，只允许通过 bump.sh 来创建版本。
 
-wayne 可以传递一个参数，如果不传递，默认进行修订版更新，即 z=z+1。 用户可以传递一个 x.y.z 格式的版本，也可以传递 major、minor 或者 patch，分别对应着主版本号、次版本号和修订版本号更新。
+Wayne 可以传递一个参数，如果不传递，默认进行修订版更新，即 z=z+1。 用户可以传递一个 x.y.z 格式的版本，也可以传递 major、minor 或者 patch，分别对应着主版本号、次版本号和修订版本号更新。
 
 假定当前版本是 1.2.3：
 
@@ -69,6 +69,3 @@ wayne 可以传递一个参数，如果不传递，默认进行修订版更新�
 ./bump.sh minor # 新版本号 1.3.0
 ./bump.sh patch # 新版本号 1.2.4
 ```
-
-
-
