@@ -7,13 +7,13 @@
 │   ├── build   // 构建相关
 │   │   ├── server  // 后端代码构建镜像
 │   │   └── ui      // 前端代码构建镜像
-│   └── kubernetes  // kubernetes 一键部署资源文件
+│   └── kubernetes  // Kubernetes 一键部署资源文件
 └── src  // 源码目录
     ├── backend   // 后端代码
     │   ├── client  // 与 Kubernetes 交互 Client
     │   ├── cmd    // 组件启动入口
     │   │   ├── apiserver  // 后台接口组件
-    │   │   └── worker   // 后台bus组件，用于审计和 Webhook
+    │   │   └── worker   // 后台 bus 组件，用于审计和 Webhook
     │   ├── common // 通用文件
     │   ├── conf // 配置文件
     │   ├── controllers // 控制层
@@ -27,7 +27,7 @@
     │   ├── models // 业务逻辑层，结构定义以及数据库交互
     │   ├── oauth2 // OAuth2 登录具体实现
     │   ├── plugins // 后端插件代码 
-    │   ├── resources // 与 Kubernetes 交互的业务逻辑层，所有与Kubernetes交互的逻辑均在此目录
+    │   ├── resources // 与 Kubernetes 交互的业务逻辑层，所有与 Kubernetes 交互的逻辑均在此目录
     │   ├── routers // 路由定义
     │   ├── swagger // beego 生成的 Swagger 相关目录
     │   ├── tests // 测试
@@ -48,7 +48,7 @@
     │       ├── assets // 资源文件
     │       │   ├── i18n // 国际化文件
     │       │   └── images
-    └── vendor // Glide 生成的vendor目录
+    └── vendor // Glide 生成的 vendor 目录
 ```
 
 ## Git 提交格式
@@ -71,7 +71,7 @@ Golang 代码使用 goimports 和 gofmt 进行代码格式化
 
 ### 行长约定
 
-一行最长不超过140个字符，超过的请使用换行展示，尽量保持格式优雅。
+一行最长不超过 140 个字符，超过的请使用换行展示，尽量保持格式优雅。
 
 ### 命名规范
 
@@ -81,7 +81,7 @@ Golang 代码使用 goimports 和 gofmt 进行代码格式化
 
 #### 包名
 
-保持package的名字和目录保持一致，尽量采取有意义的包名，简短，有意义，尽量和标准库不要冲突。命名尽量不使用分隔符。
+保持 package 的名字和目录保持一致，尽量采取有意义的包名，简短，有意义，尽量和标准库不要冲突。命名尽量不使用分隔符。
 
 #### 接口名
 
@@ -144,12 +144,12 @@ import (
 
 ### 错误处理
 
-错误处理的原则就是不能丢弃任何有返回 err 的调用，不要采用_丢弃，必须全部处理。接收到错误，要么返回err，要么实在不行就 panic，或者使用 log 记录下来。
+错误处理的原则就是不能丢弃任何有返回 err 的调用，不要采用_丢弃，必须全部处理。接收到错误，要么返回 err，要么实在不行就 panic，或者使用 log 记录下来。
 error 的信息不要采用大写字母，尽量保持你的错误简短，但是要足够表达你的错误的意思。
 
 - 在逻辑处理中禁用 panic
 
-在main包中只有当实在不可运行的情况采用 panic，例如文件无法打开，数据库无法连接导致程序无法 正常运行，但是对于其他的 package 对外的接口不能有 panic，只能在包内采用。
+在 main 包中只有当实在不可运行的情况采用 panic，例如文件无法打开，数据库无法连接导致程序无法 正常运行，但是对于其他的 package 对外的接口不能有 panic，只能在包内采用。
 
 ### 注意闭包的调用
 
@@ -231,5 +231,3 @@ func Contents(filename string) (string, error) {
 代码规范定义详见 [https://github.com/Qihoo360/wayne/blob/master/src/frontend/tslint.json](https://github.com/Qihoo360/wayne/blob/master/src/frontend/tslint.json)
 
 规范释义详见 [https://palantir.github.io/tslint/rules/](https://palantir.github.io/tslint/rules/)
-
-
