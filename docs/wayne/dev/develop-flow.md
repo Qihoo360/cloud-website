@@ -5,7 +5,7 @@
 
 确保安装了以下软件并将其添加到 $PATH 变量中：
 
-- Golang 1.9+([installation manual](https://golang.org/dl/))
+- Golang 1.11+([installation manual](https://golang.org/dl/))
 - Docker 17.05+ ([installation manual](https://docs.docker.com/install))
 - bee  ([installation manual](https://github.com/wilhelmguo/bee)) (请务必使用链接版本，不要使用 beego 官方版本，存在一些定制)
 - Node.js 8+ and npm 5+ ([installation with nvm](https://github.com/creationix/nvm#usage))
@@ -32,7 +32,7 @@ $ docker-compose up -d rabbitmq
 $ go get github.com/Qihoo360/wayne
 ```
 
-初始化Wayne所需plugins，执行如下操作：
+初始化 Wayne 所需 plugins，执行如下操作：
 
 ```bash
 $ cd $GOPATH/src/github.com/Qihoo360/wayne
@@ -100,8 +100,6 @@ $ make build-ui-image
 ```bash
 $ make 
 ```
-
-
 
 > Wayne 的官方镜像将同步到如下仓库:  [360 搜索私有云团队](https://hub.docker.com/u/360cloud/)
 
