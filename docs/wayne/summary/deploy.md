@@ -36,13 +36,13 @@ Wayne 启动会自动创建数据库并初始化数据，使用自动初始化�
 CREATE DATABASE `wayne` CHARACTER SET utf8 COLLATE utf8_general_ci;
 ```
 
-2.生成创建表结构 sql
+2.生成创建表结构 SQL
 
 ```bash
 make sqlall
 ```
 
-3.生成数据库初始化 sql
+3.生成数据库初始化 SQL
 
 ```bash
 make initdata
