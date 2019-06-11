@@ -31,11 +31,11 @@ $ include "dev.conf"
 
 **标签设置**
 
-此处设置会自动在Deployment，Service等资源上添加相应label
+此处设置会自动在 Deployment，Service 等资源上添加相应 label
 
 - AppLabelKey: 项目名称标签，默认值：wayne-app
 - NamespaceLabelKey： 项目所在命名空间标签，默认值：wayne-ns
-- PodAnnotationControllerKindLabelKey： 资源类型Annotation，默认值： wayne.cloud/controller-kind
+- PodAnnotationControllerKindLabelKey： 资源类型 Annotation，默认值： wayne.cloud/controller-kind
 
 **数据库配置**
 
@@ -74,7 +74,7 @@ $ include "dev.conf"
 
 **Bus 相关**
 
-> Bus 组件负责处理 wayne 全部的 发布-订阅 模型的任务，例如账单、审计日志、webhook 等。
+> Bus 组件负责处理 Wayne 全部的 发布-订阅 模型的任务，例如账单、审计日志、webhook 等。
 
 - BusEnable: 是否启用 Bus。
 - BusRabbitMQURL: RabbitMQURL 地址，示例: amqp://guest:guest@rabbitmq:5672
@@ -88,7 +88,7 @@ $ include "dev.conf"
 **上线相关配置**
 
 > 采用 Canary/Production 上线模式
-  如果项目 metaData 配置了{"mode":"beta"}，则点击项目详情跳转到 beta 域名
+  如果项目 metaData 配置了 {"mode":"beta"}，则点击项目详情跳转到 beta 域名
 
 - BetaUrl: https://beta.wayne.cloud
 - AppUrl: https://www.wayne.cloud
@@ -154,6 +154,6 @@ $ ldap_connection_timeout = 30
 
 - system.monitor-uri: 系统监控地址，用于从平台直接跳转 Grafana 监控平台，不如为空则不显示跳转监控按钮。URL 中的 {{app.name}} 将会自动替换为当前 App 名称。例如：此项配置为 https://github.com/{{app.name}} ，点击项目名称为 wayne 的查看监控按钮会自动跳转到 https://github.com/wayne
 
-- system.api-name-generate-rule: 资源名称生成规则，默认所有的资源名称都会自动拼接 App 名称，例如 App 名称为 wayne，创建部署时部署名称会自动拼接 wayne-前缀。可选值：join，none .join 表示自动拼接，none 表示保持原来的值。
+- system.api-name-generate-rule: 资源名称生成规则，默认所有的资源名称都会自动拼接 App 名称，例如 App 名称为 Wayne，创建部署时部署名称会自动拼接 wayne- 前缀。可选值：join，none .join 表示自动拼接，none 表示保持原来的值。
 
 - system.oauth2-title: OAuth2 登录 title，前端登录界面开启 OAuth2 登录后按钮显示的内容，默认为 OAuth 2.0 Login。
