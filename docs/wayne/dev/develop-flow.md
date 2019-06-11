@@ -5,11 +5,11 @@
 
 确保安装了以下软件并将其添加到 $PATH 变量中：
 
-- Golang 1.11+([installation manual](https://golang.org/dl/))
+- Golang 1.12+ ([installation manual](https://golang.org/dl/))
 - Docker 17.05+ ([installation manual](https://docs.docker.com/install))
 - bee  ([installation manual](https://github.com/wilhelmguo/bee)) (请务必使用链接版本，不要使用 beego 官方版本，存在一些定制)
 - Node.js 8+ and npm 5+ ([installation with nvm](https://github.com/creationix/nvm#usage))
-- MySQL 5.6+  (Wayne 主要数据都存在 MySQL 中)
+- MySQL 5.6+ (Wayne 主要数据都存在 MySQL 中)
 - RabbitMQ (可选，如需扩展审计功能，例如操作审计和 Webhooks 等，则需部署)
 
 ## 快速启动
