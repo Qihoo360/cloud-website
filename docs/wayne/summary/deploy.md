@@ -1,8 +1,6 @@
-# 部署文档
+# 用户安装步骤
 
-## 使用 Kubernetes 部署
-
-> 生产环境中推荐使用 Kubernetes 部署
+> 本安装步骤为使用 Kubernetes 部署步骤，适用于生产环境
 
 ### 克隆代码仓库
 
@@ -12,7 +10,7 @@ $ go get github.com/Qihoo360/wayne
 
 ### 安装依赖环境（可选）
 
-Wayne 依赖 MySQL 和 RabbitMQ，其中 MySQL 是必须的服务，用户存储系统的各种数据，RabbitMQ 是可选的，主要用户扩展审计功能使用。
+Wayne 依赖 MySQL ，其中 MySQL 是必须的服务，用户存储系统的各种数据。
 
 ```bash
 $ kubectl apply -f hack/kubernetes/dependency

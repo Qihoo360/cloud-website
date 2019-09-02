@@ -27,4 +27,3 @@
 ![](../images/portal-migration-deployment-deploy.png?classes=border,shadow)
 
 
-> 其他资源迁移参考部署的迁移流程即可

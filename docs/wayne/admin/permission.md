@@ -1,4 +1,4 @@
-# 权限（管理端）
+# 权限管理
 
 ## 简介
 
@@ -35,7 +35,7 @@ Wayne 使用 RBAC（role-based access control）模式进行权限验证。
 ## 使用示例
 
 ### 部门用户管理
- 
+
 管理员后台配置好用户角色和权限后，切换到前台需要授权的 Namespace，点击部门管理-> 成员管理：
 
 ![](../images/namespace-permission.gif?classes=border,shadow)

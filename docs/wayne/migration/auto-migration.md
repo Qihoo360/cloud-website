@@ -4,7 +4,7 @@
 
 ## 1.创建项目
 
-选择要迁移的 Namespace, 点击创建项目创建相应的项目。如果要迁到的项目已经存在，跳过此步骤。
+选择要迁移的部门（Namespace）, 点击创建项目创建相应的项目。如果要迁到的项目已经存在，跳过此步骤。
 
 ![](../images/portal-migration.png?classes=border,shadow)
 
@@ -24,4 +24,3 @@
 
 ![](../images/portal-migration-deployment-deploy.png?classes=border,shadow)
 
-> 其他资源迁移参考部署的迁移流程即可

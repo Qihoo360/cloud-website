@@ -26,7 +26,11 @@
     "-highlight",
     "prism-themes",
     "sitemap-general",
-    "lightbox"
+    "lightbox",
+	"fontsettings",
+	"highlight",
+	"toggle-chapters",
+	"livereload"
   ],
   "pluginsConfig": {
     "theme-default": {

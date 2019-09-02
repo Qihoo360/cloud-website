@@ -1,5 +1,5 @@
-# Wayne 开发流程
-> 如果您想尽快地部署 Wayne 而不关心开发流程，我们精简了 [部署文档](../summary/deploy.md), 请参阅！
+# 开发者安装步骤
+> 如果您是一名开发者，可以阅读这篇文档，了解如何将Wayne部署在开发者环境下
 
 ## 环境准备
 
@@ -10,7 +10,6 @@
 - bee  ([installation manual](https://github.com/wilhelmguo/bee)) (请务必使用链接版本，不要使用 beego 官方版本，存在一些定制)
 - Node.js 8+ and npm 5+ ([installation with nvm](https://github.com/creationix/nvm#usage))
 - MySQL 5.6+ (Wayne 主要数据都存在 MySQL 中)
-- RabbitMQ (可选，如需扩展审计功能，例如操作审计和 Webhooks 等，则需部署)
 
 ## 快速启动
 
@@ -103,4 +102,5 @@ $ make
 
 > Wayne 的官方镜像将同步到如下仓库:  [360 搜索私有云团队](https://hub.docker.com/u/360cloud/)
 
-> 如果你是 Wayne 开发者，可以参考 Wayne 的发版流程 [发版流程](e-flow.md)
+> 作为开发者，你还可以参考 Wayne 的发版流程 [发版流程](e-flow.md)
+

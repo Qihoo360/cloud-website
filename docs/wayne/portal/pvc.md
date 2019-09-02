@@ -1,4 +1,4 @@
-# PVC（用户端）
+# 存储索取（PVC）
 ## 简介
 PersistentVolumeClaim（PVC）是 kubernetes 对持久化存储资源的抽象，使得用户可以在不关心具体存储技术细节的情况下方便使用持久化存储。
 

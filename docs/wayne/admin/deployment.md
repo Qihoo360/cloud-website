@@ -1,4 +1,4 @@
-# Deployment（管理端） 
+# 部署（Deployment） 
 
 ## 简介
 
@@ -7,6 +7,10 @@
 ## 创建部署
 
 拥有 DEPLOYMENT_CREATE 权限的用户可以在前台自助创建部署，管理员用户也可以在后台创建和编辑部署。
+
+![](../images/admin-deployment.gif?classes=border,shadow)
+
+
 
 部署元数据说明：
 

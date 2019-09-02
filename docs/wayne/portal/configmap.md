@@ -1,13 +1,13 @@
-# ConfigMap（用户端）
+# 配置集（ConfigMap）
 
 ## 定义
 
-ConfigMap 允许您将配置与应用程序分离，以使应用程序可移植。创建好 ConfigMap 后可以通过挂载文件或者环境变量的形式来使用。
+配置集（ConfigMap） 允许您将配置与应用程序分离，以使应用程序可移植。创建好 ConfigMap 后可以通过挂载文件或者环境变量的形式来使用。
 
 ## 示例
 
 
-### 例如有以下 ConfigMap
+例如有以下 ConfigMap
 
 ![configmap 示例](../images/portal-configmap-tpl.png)
 

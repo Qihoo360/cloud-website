@@ -1,10 +1,8 @@
-# Secret（用户端）
+# 加密字典（Secret）
 
 ## 简介
 
-当需要存储一些非敏感配置数据时可以使用 ConfigMap，当你想要存储一些敏感数据时使用 Secret，例如（passwords, OAuth tokens, ssh keys, credentials 等）
-
-### 例如有以下 Secret
+当需要存储一些非敏感配置数据时可以使用 ConfigMap，当你想要存储一些敏感数据时使用 Secret，例如（passwords, OAuth tokens, ssh keys, credentials 等）。例如有以下 Secret：
 
 ![](../images/portal-secret-tpl.png?classes=border,shadow)
 

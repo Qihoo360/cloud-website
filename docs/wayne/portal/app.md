@@ -1,7 +1,7 @@
-# App（用户端）
+# 项目(App）
 
 ## 简介
-本文档主要讲解如何管理项目相关资源，Wayne 中各个概念和 kubernetes 中概念的对照请参照 [Wayne 名词解释](../summary/concept.md)
+项目指一个独立完整的业务功能。
 
 ## 权限
 

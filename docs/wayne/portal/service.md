@@ -1,4 +1,4 @@
-# Service（用户端）
+# 负载均衡（Service）
 
 ## 简介
 
@@ -14,6 +14,6 @@ Service 是一组 Pod 对象的抽象，通过 label 标签可以关联到相应
 
 在 wayne 中，存在一组默认 label：wayne-ns、wayne-app、app，分别代表 Pod 所属的部门、项目和资源（部署、状态副本集等）名。因此强烈建议用户在创建 Service 的时候和对应的默认 label 耦合。
 
-> 注意：上线了一个 service 后，如果需要修改 service 类型，需要把当前 service 下线新的模板才能生效！
+> 注意：上线了一个 service 后，如果需要修改 service 类型，需要把当前 service 下线，新的模板才能生效！
 
 ![示例](../images/portal-service.png?classes=border,shadow)

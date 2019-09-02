@@ -1,4 +1,4 @@
-# Cronjob（管理端）
+# 计划任务（Cronjob）
 
 ## 简介
 
@@ -7,6 +7,8 @@ CronJob 配置主要说明如何在 Wayne 平台上创建和管理 CronJob。
 ## 创建
 
 拥有 CRONJOB_CREATE 权限的用户可以在前台自助创建 CronJob，管理员用户也可以在后台创建和编辑 CronJob。
+
+![](../images/admin-cronjob.gif?classes=border,shadow)
 
 元数据说明：
 

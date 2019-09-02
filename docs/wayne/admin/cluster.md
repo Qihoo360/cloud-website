@@ -1,4 +1,4 @@
-# 集群配置（管理端） 
+# 集群配置
 
 ## 简介
 
@@ -15,7 +15,7 @@
 - Master : Kubernetes Apiserver 地址
 
 - kubeConfig: 链接 Apiserver 的配置文件。配置示例：
- 
+
  ``` yaml
 kind: Config
 apiVersion: v1
@@ -38,16 +38,16 @@ contexts:
       namespace: default
 current-context: k8s-dev-context
  
- ``` 
- 
+ ```
+
  参考 [Kubernetes 文档](https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/)
- 
+
  - 集群状态：目前有两种状态，在线和维护中。集群需要临时维护时，可以把集群状态设置为维护中，避免用户误操作影响维护中的集群。
- 
+
  - MetaData：集群元数据（可选）
- 
+
  配置示例
- 
+
  ```yaml
  # 可选 
  # 由于当前 Wayne 并没有完全管理 Kubernetes 资源（后续会完全管理 Kubernetes 资源），系统集成了 Kubernetes Dashboard 方便查看 Kubernetes 资源。
