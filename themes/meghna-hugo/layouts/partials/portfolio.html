@@ -1,0 +1,34 @@
+{{ if .Site.Data.portfolio.enable}}
+{{"<!-- Portfolio Section -->" | safeHTML}}
+<section class="portfolio section" id="portfolio">
+    <div class="container">
+        <div class="row ">
+            <div class="col-xl-12">
+                {{"<!-- section title -->" | safeHTML}}
+                <div class="title text-center">
+                    <h2> {{ with .Site.Data.portfolio.heading }} {{ . }} {{ end }} <span class="color">{{ with .Site.Data.portfolio.headingSpan }} {{ . }} {{ end }}</span></h2>
+                    <div class="border-meghna"></div>
+                </div>
+                {{"<!-- /section title -->" | safeHTML}}
+            </div>
+        </div>
+       
+        <div class="row filtr-container">
+            {{"<!-- portfolio item -->" | safeHTML}}
+            {{ range .Site.Data.portfolio.portfolioItem }}
+            <div class="col-lg-4 filtr-item" data-category="{{ .types }}">
+                <div class="portfolio-block mb-4">
+                    <img class="img-fluid" src="{{ .image | absURL}}" alt="work-image">
+                    <div class="caption">
+                        
+                        <h4><a href="{{ .URL | absURL }}">{{ .title }}</a></h4>
+                       
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{"<!-- /Portfolio -->" | safeHTML}}
+{{ end }}
