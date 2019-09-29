@@ -1,0 +1,7 @@
+enable : true
+heading : 我们的
+headingSpan : 社区
+title : 开源社区
+content : 我们鼓励更多的开发者参与到Wayne的开发，希望通过社区合作，创建一个强大、充满活力的代码库。
+image: images/about/company-growth.png
+url: https://github.com/Qihoo360/wayne

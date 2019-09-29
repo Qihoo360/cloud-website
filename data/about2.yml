@@ -1,0 +1,17 @@
+enable : true
+image : img/carousel/portal.png
+title : 解决方案
+description : 团队提供容器技术的全生命周期企业级解决方案。我们专注于解决企业使用容器技术面临的运维(Operation)、编排(Orchestration)和可观察(Observerity)问题。
+#description2 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi.
+aboutItem : 
+  - icon : tf-circle-compass
+    title : 自动化运维
+    content : 企业级Kubernetes的运维能力：高可用&安全认证；可编排的安装和维护 ；通过自愈实现免运维
+    
+  - icon : tf-hotairballoon
+    title : 服务编排
+    content : 企业级的服务编排能力 ：面向研发的管理平台 ；云原生的网络能力 ；遗留应用上云方案
+  
+  - icon : tf-anchor2
+    title : 可见性&安全
+    content : 企业级可观察能力 ：开箱即用的立体化监控方案 ；实时无侵入的安全防护

@@ -1,0 +1,27 @@
+enable : true
+heading : 产品
+headingSpan : 特点
+serviceItem :
+  - icon : tf-globe
+    title : 多集群管理
+    content : 业界首创 Kubernetes 多集群发布和管理平台，可以同时管理多个 Kubernetes 集群，并针对性添加特定配置，更方便的多集群、多租户管理。
+    
+  - icon : tf-ion-laptop
+    title : 完备权限管理
+    content : 基于 RBAC（Role based access control）的权限管理，用户通过角色与部门和项目关联，拥有部门角色允许操作部门资源，拥有项目角色允许操作项目资源，更加适合多租户场景。
+    
+  - icon : tf-genius
+    title : 简化K8S对象创建
+    content : 以表单的形式提供基础 Kubernetes 对象配置文件添加方式，同时支持高级模式直接编辑 Json/Yaml文件创建 Kubernetes 对象。
+    
+  - icon : tf-dial
+    title : 首创模版概念
+    content : 保留完整的发布历史，用户可以便捷的找到任何一次历史发布，并可轻松进行回滚，以及基于特定历史版本更新 Kubernetes 资源。当集群数据意外丢失时，可以通过 Wayne 平台重新发布
+    
+  - icon : tf-target3
+    title : 提供开放接口调用
+    content : 用户可自主申请相关 APIKey 并管理自己的部门和项目，运维人员也可以申请全局 APIKey 进行特定资源的全局管理。
+    
+  - icon : tf-lifesaver
+    title : 提供基于严密权限校验的 WEB SHELL
+    content : 用户可以通过 Web shell 的形式进入发布的 Pod 进行操作，自带完整的权限校验。

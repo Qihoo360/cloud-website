@@ -1,0 +1,16 @@
+enable : true
+heading : 应用
+headingSpan : 场景
+aboutItem : 
+- icon : tf-tools
+  title : Devops
+  content : 支持传统应用的容器化改造和部署，提升应用开发、测试、发布效率；提供丰富的接口，灵活适配企业的个性化诉求
+
+- icon : tf-strategy
+  title : 弹性伸缩
+  content : 根据不同的业务需求，自动调整资源，保证业务平稳健康运行
+  
+- icon : tf-anchor2
+  title : 混合云架构
+  content : 基于容器基础设施无关的特性，使用同一套镜像和编排在云上部署应用，无缝发布
+  

@@ -8,6 +8,13 @@
 $ go get github.com/Qihoo360/wayne
 ```
 
+### 安装依赖环境（可选）
+
+Wayne 依赖 MySQL ，其中 MySQL 是必须的服务，用户存储系统的各种数据。
+
+```bash
+$ kubectl apply -f hack/kubernetes/dependency
+```
 
 > 数据未进行持久化，生产环境一定要做数据持久化，避免数据丢失
 

@@ -1,0 +1,36 @@
+enable : true
+heading : 我们的
+headingSpan : 用户
+
+
+portfolioItem :
+
+    
+  - types : design
+    image : img/360search.jpg
+    icon : tf-ion-android-search
+    URL : https://www.so.com
+    title : 360搜索
+    description : 360搜索是安全、精准、可信赖的新一代搜索引擎，依托于360母品牌的安全优势，全面拦截各类钓鱼欺诈等恶意网站，提供更放心的搜索服务。
+    
+  - types : photography
+    image : img/shareit.jpg
+    icon : tf-ion-android-search
+    URL : https://www.ushareit.com/en/index.html
+    title : SHAREit
+    description : The best sharing app with fastest cross-platform transfer speed & free online feeds including movies / music / wallpapers / GIFs
+    
+  - types : development
+    image : img/bitmain.png
+    icon : tf-ion-android-search
+    URL : https://www.bitmain.com/
+    title : BITMAIN
+    description : The world’s first consumer-grade 16nm ASIC miner.
+    
+  - types : design, development
+    image : img/face++.png
+    icon : tf-ion-android-search
+    URL : https://megvii.com/
+    title : 旷视
+    description : 旷视科技拥有世界领先的人工智能算法、人脸识别硬件技术、行业方案,为您提供人脸识别、人工智能、智能地产、智能安防。
+    

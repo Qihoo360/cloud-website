@@ -1,156 +1,109 @@
-title = "360云平台"
-theme = "hugo-universal-theme"
+baseUrl = "https://360yun.org/"
 languageCode = "zh-CN"
-# Site language. Available translations in the theme's `/i18n` directory.
-defaultContentLanguage = "zh"
-# Enable comments by entering your Disqus shortname
+DefaultContentLanguage = "en"
+title = "Wayne"
 disqusShortname = "k8swayne"
+theme = "meghna-hugo"
+summaryLength = 30
+paginate = 10
+
 # Enable Baidu Analytics by entering your tracking code
 googleAnalytics = "c3c51c6790e932d34fd1bf6e0e637537"
 hasCJKLanguage = "true"
-# Define the number of posts per page
-paginate = 10
 
-baseUrl = "https://360yun.org/"
+[taxonomies]
+  author = "author"
+  category = "categories"
+  tag = "tags"
+
+# Menu
 [menu]
-
-# Main menu
-
-[[menu.main]]
-    name = "首页"
-    url  = "/"
-    weight = 1
-
-[[menu.main]]
-    name = "博客"
-    url  = "/blog/"
+    [[menu.nav]]
+    name = "产品特点"
+    URL = "services"
     weight = 2
-
-[[menu.main]]
-    name = "在线演示"
-    url  = "https://demo.360yun.org"
+	
+	[[menu.nav]]
+    name = "应用场景"
+    URL = "about"
     weight = 3
 
-[[menu.main]]
-    name = "文档"
-    identifier = "docs"
+    [[menu.nav]]
+    name = "社区"
+    URL = "team-skills"
     weight = 4
 
-[[menu.main]]
-    parent = "docs"
-    name = "Wayne"
-    url = "/wayne/"
-
-[[menu.main]]
-    name = "联系我们"
-    url  = "/contact/"
+    [[menu.nav]]
+    name = "用户"
+    URL = "portfolio"
     weight = 5
 
-# Top bar social links menu
+    [[menu.nav]]
+    name = "博客"
+    URL = "blog"
+    weight = 6
 
-[[menu.topbar]]
-    weight = 1
-    name = "GitHub"
-    url = "https://github.com/Qihoo360/wayne"
-    pre = "<i class='fa fa-2x fa-github'></i>"
+    [[menu.nav]]
+    name = "联系我们"
+    URL = "contact-us"
+    weight = 7
+	
+	[[menu.nav]]
+    name = "用户文档"
+    URL = "wayne" #"https://360yun.org/wayne/"
+    weight = 8
+	
 
+# Site params
 [params]
-    viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["Kubernetes Dashbord", "Wayne", "Wayne官网", "360云", "360云官网"]
-    defaultDescription = "Site template made by devcows using hugo"
+home= "首页"
+logo = "img/logo.png"
 
-    # Google Maps API key (if not set will default to not passing a key.)
-    googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
 
-    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "blue"
+# Meta data
+description = "360云平台"
+author = "Qihoo"
+# Google Analitycs
+googleAnalitycsID = "c3c51c6790e932d34fd1bf6e0e637537"
+custom_css = ["css/custom.css"]
 
-    # Since this template is static, the contact form uses www.formspree.io as a
-    # proxy. The form makes a POST request to their servers to send the actual
-    # email. Visitors can send up to a 1000 emails each month for free.
-    #
-    # What you need to do for the setup?
-    #
-    # - set your email address under 'email' below
-    # - upload the generated site to your server
-    # - send a dummy email yourself to confirm your account
-    # - click the confirm link in the email from www.formspree.io
-    # - you're done. Happy mailing!
-    #
-    # Enable the contact form by entering your Formspree.io email
-    #email = ""
-
-    about_us = "<p>360搜索云平台团队提供技术支持</p>"
-    copyright = "Copyright (c) 2019 - 2019, Qihoo 360 all rights reserved."
-
-    # Format dates with Go's time formatting
-    date_format = "January 2, 2006"
-
-    logo = "img/wayne-logo.svg"
-    logo_small = "img/wayne-logo.svg"
-    address = """<p><br>hello@360.cn
-        <br>
-      </p>
-      """
-
-[Permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
-
-# Enable or disable top bar with social icons
-[params.topbar]
+    # Banner Section
+    [params.banner]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">面向未来的企业级云解决方案</p>
-      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
-      <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
-      </p>
-      """
+    bgImage = "images/slider/bg.jpg"
+    heading = "WAYNE"
+    content= "Wayne 是一个通用的、基于 Web 的 Kubernetes 多集群管理平台。通过可视化 Kubernetes 对象模板编辑的方式，降低业务接入成本，拥有完整的权限管理系统，适应多租户场景，是一款适合企业级集群使用的发布平台。"
+    btn = true
+    btnText="在线演示"
+    btnURL="https://demo.360yun.org/"
 
-# Enable and disable widgets for the right sidebar
-[params.widgets]
-    categories = true
-    tags = true
-    search = true
 
-[params.carousel]
+    # counter
+    [params.counter]
     enable = true
-    # All carousel items are defined in their own files. You can find example items
-    # at 'exampleSite/data/carousel'.
-    # For more informtion take a look at the README.
+    bgImage = "images/backgrounds/bg-1.jpg"
+        [[params.counter.counterItem]]
+        title = "Github Stars"
+        icon = "tf-ion-android-happy"
+        count = "2653"
 
-[params.features]
-    enable = true
-    # All features are defined in their own files. You can find example items
-    # at 'exampleSite/data/features'.
-    # For more informtion take a look at the README.
+        [[params.counter.counterItem]]
+        title = "Committer"
+        icon = "tf-ion-archive"
+        count = "18"
 
-[params.testimonials]
-    enable = false
-    # All testimonials are defined in their own files. You can find example items
-    # at 'exampleSite/data/testimonials'.
-    # For more informtion take a look at the README.
-    title = "Testimonials"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+        [[params.counter.counterItem]]
+        title = "Closed Community Issues"
+        icon = "tf-ion-thumbsup"
+        count = "170"
 
-[params.see_more]
-    enable = false
-    icon = "fa fa-file-code-o"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-    link_url = "#"
-    link_text = "Check other homepages"
+        [[params.counter.counterItem]]
+        title = "Releases"
+        icon = "tf-ion-coffee"
+        count = "17"
 
-[params.clients]
-    enable = true
-    # All clients are defined in their own files. You can find example items
-    # at 'exampleSite/data/clients'.
-    # For more informtion take a look at the README.
-    title = "我们的用户"
+    # footer
+    [params.footer]
+        copyright = "Qihoo 360"
+        copyrightURL = "http://www.themefisher.com"
 
-[params.recent_posts]
-    enable = true
-    title = "最新博客"
-    subtitle = "经典使用案例，最佳实践及时分享"
-
-[blackfriday]
-  extensions = ["joinLines"]
