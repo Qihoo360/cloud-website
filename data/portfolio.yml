@@ -10,7 +10,7 @@ portfolioItem :
     image : img/360logo.png
     icon : tf-ion-android-search
     URL : https://www.so.com
-    title : 360搜索
+    title : 奇虎360
     description : 360搜索是安全、精准、可信赖的新一代搜索引擎，依托于360母品牌的安全优势，全面拦截各类钓鱼欺诈等恶意网站，提供更放心的搜索服务。
     
   - types : photography
