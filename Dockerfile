@@ -1,5 +1,5 @@
 ## build website
-FROM 360cloud/hugo:0.47.1 as website
+FROM q8sio/hugo:0.56.3 as website
 
 COPY . /src
 
