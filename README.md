@@ -5,6 +5,7 @@ This website is build by [hugo](https://gohugo.io/). The hugo theme is [hugo-uni
 ## Start Server
 
 ```bash
+# hugo version need 0.55.0 or later.
 make run-website
 ```
 
