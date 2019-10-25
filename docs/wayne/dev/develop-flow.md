@@ -45,7 +45,7 @@ $ touch src/backend/conf/dev.conf
 
 > 如果复制 app.conf 中的内容到 dev.conf，必须去掉 include "dev.conf" 否则会出现循环引用导致内存溢出。
 
-> 参考 [配置文件](uration.md), 正确配置系统启动所需参数。
+> 参考 [配置文件](configuration.md), 正确配置系统启动所需参数。
 
 > 在 dev.conf 中写入数据库等相关配置，dev.conf 会覆盖 app.conf 中的配置
 
