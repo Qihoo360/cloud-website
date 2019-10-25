@@ -13,14 +13,13 @@
 
 ## 快速启动
 
-### 开发环境准备（可选）
-服务依赖 MySQL/RabbitMQ，若没有可用实例，可通过 Docker 启动本地环境：
+### 开发环境准备
+服务依赖 MySQL，若没有可用实例，可通过 Docker 启动本地环境：
 
-使用以下命令启动：
+使用以下命令启动mysql容器（docker-compose文件参考wayne/hack/docker-compose/docker-compose.yaml）：
 
 ```bash
 $ docker-compose up -d mysql
-$ docker-compose up -d rabbitmq
 ```
 
 ### 本地启动
@@ -65,7 +64,7 @@ $ set GO111MODULE=on
 **启动后端服务：**
 
 ```bash
-$ make run-backend
+$ cd $GOPATH/src/github.com/Qihoo360/wayne && make run-backend
 ```
 
 **启动前端服务：**
