@@ -48,7 +48,7 @@ make initdata
 
 ### 配置 Configmap
 
-在 hack/kubernetes/wayne-backend.yaml 中按照[配置文档](../admin/cluster.md)配置好相关的信息（例如数据库链接等信息）
+在 hack/kubernetes/wayne-backend.yaml 中按照[配置文档](../dev/configuration.md)配置好Configmap相关的信息（例如数据库链接等信息）
 
 > 如果使用的是hack/kubernetes/mysql.yaml 中启动的 MySQL，可以暂时不修改配置文件。默认配置文件中通过集群内部域名访问 MySQL。
 
