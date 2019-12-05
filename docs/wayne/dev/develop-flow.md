@@ -8,7 +8,7 @@
 - Golang 1.12+ ([installation manual](https://golang.org/dl/))
 - Docker 17.05+ ([installation manual](https://docs.docker.com/install))
 - bee  ([installation manual](https://github.com/beego/bee))
-- Node.js 8+ and npm 5+ ([installation with nvm](https://github.com/creationix/nvm#usage))
+- Node.js v11+ and npm 6.5+ ([installation with nvm](https://github.com/creationix/nvm#usage))
 - MySQL 5.6+ (Wayne 主要数据都存在 MySQL 中)
 
 ## 快速启动
