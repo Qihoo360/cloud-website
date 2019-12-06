@@ -63,8 +63,8 @@
   * [存储索取](admin/pvc.md)
 
 * [数据迁移](migration/manual-migration.md)
-  * [手动迁移](migration/manual-migration.md)
-  * [应用间迁移](migration/auto-migration.md)
+  * [应用手动迁移](migration/manual-migration.md)
+  * [应用自动迁移](migration/auto-migration.md)
   * [数据库迁移](summary/db-migration.md)
 
 * [通知](admin/notification.md)
