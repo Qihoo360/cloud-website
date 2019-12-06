@@ -6,7 +6,7 @@
 
 ![](../images/portal-migration.png?classes=border,shadow)
 
-## 2.迁移资源
+## 2.配置应用
 
 这里以 `Deployment` 为例, 演示迁移流程。
 
